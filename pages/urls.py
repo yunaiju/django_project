@@ -20,4 +20,6 @@ from . import views
 urlpatterns = [
     path('',views.mainpage),
     path('company/',views.company),
+    path('board/',views.board),
+    path('customer/',views.customer),
 ]
